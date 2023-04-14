@@ -1,6 +1,6 @@
 <?php
 ob_start();
-$HSON = "0000";
+$HSON = "5938865103:AAF3k5Zl-_IqRAwMRXsfPLU12TNOQHH5w5M";
 define('API_KEY',$HSON);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
 function bot($T75BOT,$BOTHSO=[]){
@@ -23,8 +23,8 @@ $username = $update->message->from->username;
 $site = "smmatrixx.com"; 
 $followers = "2799";  //متابعين//
 $aboKrar = bot('getme',['bot'])->result->username;  //معرف البوت//
-$MTAWR = "DMMPP";  //معرفك
-$admin = "0000";  //ايديك//
+$MTAWR = "YxYxYo";  //معرفك
+$admin = "22163598";  //ايديك//
 include "DEVHSO.php";
 //——————————————————//
 if(isset($update->callback_query)){
