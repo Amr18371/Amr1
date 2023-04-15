@@ -23,7 +23,7 @@ $username = $update->message->from->username;
 $site = "smmatrixx.com"; 
 $followers = "2799";  //متابعين//
 $aboKrar = bot('getme',['bot'])->result->username;  //معرف البوت//
-$MTAWR = "YxYxYo";  //معرفك
+$MTAWR = "@YxYxYo";  //معرفك
 $admin = "22163598";  //ايديك//
 include "DEVHSO.php";
 //——————————————————//
